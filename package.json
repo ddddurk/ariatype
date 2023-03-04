@@ -1,0 +1,54 @@
+{
+  "name": "@ddddurk/ariatype",
+  "version": "0.0.0",
+  "description": "Type definitions for WAI-Accessibility.",
+  "author": "ddddurk",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "./dist"
+  ],
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ddddurk/ariatype",
+    "directory": "packages/ariatype"
+  },
+  "bugs": {
+    "url": "https://github.com/ddddurk/ariatype/issues"
+  },
+  "keywords": [
+    "accessibility",
+    "typescript",
+    "wai-aria"
+  ],
+  "clean-package": "./clean-package.config.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint --fix './**/*.{js,json,jsx,ts,tsx}' && prettier --write .",
+    "postpack": "clean-package restore",
+    "prepack": "clean-package",
+    "prepare": "husky install",
+    "release": "yarn build && changeset publish"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.26.0",
+    "@commitlint/cli": "^17.4.4",
+    "@commitlint/config-conventional": "^17.4.4",
+    "@ddddurk/configs": "^1.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.54.0",
+    "@typescript-eslint/parser": "^5.54.0",
+    "clean-package": "^2.2.0",
+    "eslint": "^8.35.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.2",
+    "prettier": "^2.8.4",
+    "typescript": "^4.9.5"
+  }
+}
