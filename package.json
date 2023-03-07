@@ -38,7 +38,7 @@
     "@changesets/cli": "^2.26.0",
     "@commitlint/cli": "^17.4.4",
     "@commitlint/config-conventional": "^17.4.4",
-    "@ddddurk/configs": "^1.0.0",
+    "@ddddurk/configs": "^1.0.1",
     "@typescript-eslint/eslint-plugin": "^5.54.0",
     "@typescript-eslint/parser": "^5.54.0",
     "clean-package": "^2.2.0",

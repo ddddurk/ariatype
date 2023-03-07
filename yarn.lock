@@ -398,10 +398,10 @@
   dependencies:
     "@jridgewell/trace-mapping" "0.3.9"
 
-"@ddddurk/configs@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@ddddurk/configs/-/configs-1.0.0.tgz#c0ac4e81311e075d3c790fd24b59a88b393e55a8"
-  integrity sha512-LbQfbCZ0yRe1XIo4Ru3ziD/CSF+NEjAnje0MATt+vUpV+jF27eu4EBeakkBZY/YPgvKRtj8nYTh0di89UIjGGA==
+"@ddddurk/configs@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@ddddurk/configs/-/configs-1.0.1.tgz#7ed4b44c6487696a4943a16b6a993140dada4227"
+  integrity sha512-KbR8y6HP/Z5UOc+8ZtcEGytnxxLFGXdafK83+hEARi0p7TeEG75/MDAup/HCo2S1T5dL7w75Mb+2nTukD9g8+g==
 
 "@eslint/eslintrc@^2.0.0":
   version "2.0.0"
