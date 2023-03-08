@@ -1,5 +1,11 @@
 # @ddddurk/ariatype
 
+## 1.0.2
+
+### Patch Changes
+
+- 833f095: 1.0.2
+
 ## 1.0.1
 
 ### Patch Changes
