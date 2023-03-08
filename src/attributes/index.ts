@@ -1,17 +1,13 @@
-import {
-  AriaAttributesDragAndDrop,
-  ariaAttributesDragAndDrop
-} from "./dragAndDrop";
-import { AriaAttributesGlobal, ariaAttributesGlobal } from "./global";
-import {
-  AriaAttributesLiveRegion,
-  ariaAttributesLiveRegion
-} from "./liveRegion";
-import {
-  AriaAttributesRelationship,
-  ariaAttributesRelationship
-} from "./relationship";
-import { AriaAttributesWidget, ariaAttributesWidget } from "./widget";
+import type { AriaAttributesDragAndDrop } from "./dragAndDrop";
+import { ariaAttributesDragAndDrop } from "./dragAndDrop";
+import type { AriaAttributesGlobal } from "./global";
+import { ariaAttributesGlobal } from "./global";
+import type { AriaAttributesLiveRegion } from "./liveRegion";
+import { ariaAttributesLiveRegion } from "./liveRegion";
+import type { AriaAttributesRelationship } from "./relationship";
+import { ariaAttributesRelationship } from "./relationship";
+import type { AriaAttributesWidget } from "./widget";
+import { ariaAttributesWidget } from "./widget";
 
 export type AriaAttributes = AriaAttributesDragAndDrop &
   AriaAttributesGlobal &
