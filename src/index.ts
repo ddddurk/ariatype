@@ -1,6 +1,6 @@
-import { AriaAttributes } from "./attributes";
-import { AriaRole } from "./roles";
-import { PartiallyRequiredProps } from "./utils";
+import type { AriaAttributes } from "./attributes";
+import type { AriaRole } from "./roles";
+import type { PartiallyRequiredProps } from "./utils";
 
 export type AriaTypes = AriaAttributes & {
   /**
