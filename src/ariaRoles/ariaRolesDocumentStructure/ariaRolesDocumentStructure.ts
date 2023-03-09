@@ -26,6 +26,3 @@ export const ariaRolesDocumentStructure = [
   "toolbar",
   "tooltip"
 ] as const;
-
-export type AriaRoleDocumentStructure =
-  (typeof ariaRolesDocumentStructure)[number];

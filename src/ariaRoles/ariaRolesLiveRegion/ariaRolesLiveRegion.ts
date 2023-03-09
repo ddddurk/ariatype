@@ -5,5 +5,3 @@ export const ariaRolesLiveRegion = [
   "status",
   "timer"
 ] as const;
-
-export type AriaRoleLiveRegion = (typeof ariaRolesLiveRegion)[number];

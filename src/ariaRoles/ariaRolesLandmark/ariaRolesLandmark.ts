@@ -8,5 +8,3 @@ export const ariaRolesLandmark = [
   "region",
   "search"
 ] as const;
-
-export type AriaRoleLandmark = (typeof ariaRolesLandmark)[number];

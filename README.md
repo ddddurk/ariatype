@@ -18,7 +18,7 @@ pnpm add @ddddurk/ariatype -D
 import { AriaTypes } from "@ddddurk/ariatype";
 
 const aria: AriaTypes = {
-  "aria-atomic": "true",
+  aria-atomic: "true",
   role: "alert"
 };
 ```
