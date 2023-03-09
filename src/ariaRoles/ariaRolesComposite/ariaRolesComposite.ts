@@ -16,5 +16,3 @@ export const ariaRolesComposite = [
   "tabpanel",
   "treegrid"
 ] as const;
-
-export type AriaRoleComposite = (typeof ariaRolesComposite)[number];

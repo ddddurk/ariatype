@@ -14,8 +14,3 @@ export type AriaAttributesDragAndDrop = {
 };
 
 export type AriaAttributeDragAndDrop = keyof AriaAttributesDragAndDrop;
-
-export const ariaAttributesDragAndDrop = [
-  "aria-dropeffect",
-  "aria-grabbed"
-] as AriaAttributeDragAndDrop[];

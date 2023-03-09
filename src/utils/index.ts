@@ -1,1 +1,1 @@
-export * from "./partiallyRequiredProps";
+export * from "./partiallyRequiredProps.types";

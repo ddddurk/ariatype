@@ -20,5 +20,3 @@ export const ariaRolesWidget = [
   "textbox",
   "treeitem"
 ] as const;
-
-export type AriaRoleWidget = (typeof ariaRolesWidget)[number];
